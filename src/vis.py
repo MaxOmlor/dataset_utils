@@ -82,6 +82,7 @@ def scatterplot_matrix(dataframe, color_column=None, plot_size=2.5, subplot_spac
 import matplotlib.pyplot as plt
 import numpy as np
 import datetime
+from matplotlib.ticker import MaxNLocator
 
 def plot_distribution(dataframe, color_column=None, max_xticks=10, plot_width=10, subplot_hight=2, subplot_spacing=0.05):
     n_vars = dataframe.shape[1]
